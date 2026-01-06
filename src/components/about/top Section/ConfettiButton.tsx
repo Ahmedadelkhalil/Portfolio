@@ -1,5 +1,4 @@
 import confetti from "canvas-confetti";
-import Link from "next/link";
 
 const ConfettiButton = () => {
   const handleClick = () => {
@@ -11,10 +10,7 @@ const ConfettiButton = () => {
   };
 
   return (
-    <Link
-      href="/example.pdf" // Path to the file in the public folder
-      download="Example-PDF-document" // Suggested filename for the download
-    >
+    <a href="/Resume.pdf" download="Ahmed Adel - Resume.pdf">
       <button
         onClick={handleClick}
         className="uppercase my-5 text-[12px] bg-black text-white font-bold px-3 py-2 rounded shadow-lg border-[3px] border-[lightgray] hover:bg-[#2c2b2b] transition"
@@ -22,7 +18,7 @@ const ConfettiButton = () => {
       >
         Download Resume
       </button>
-    </Link>
+    </a>
   );
 };
 
