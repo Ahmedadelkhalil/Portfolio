@@ -10,7 +10,7 @@ const ConfettiButton = () => {
   };
 
   return (
-    <a href="/Resume.pdf" download="Ahmed Adel - Resume.pdf">
+    <a href="/Ahmed Adel - Resume.pdf" download="Ahmed Adel - Resume.pdf">
       <button
         onClick={handleClick}
         className="uppercase my-5 text-[12px] bg-black text-white font-bold px-3 py-2 rounded shadow-lg border-[3px] border-[lightgray] hover:bg-[#2c2b2b] transition"
