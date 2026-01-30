@@ -6,7 +6,7 @@ import Footer from "@/components/footer";
 import UpBtn from "@/global/upBtn";
 
 export const metadata: Metadata = {
-  title: "Ahmed Adel | Software Developer",
+  title: "Ahmed Adel | Software Engineer",
   description: "Nextjs Portfolio Website By Ahmed Adel",
 };
 

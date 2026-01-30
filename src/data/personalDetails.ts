@@ -9,7 +9,7 @@ export const personalDetails: PersonalDetails = [
   {
     id: 1,
     icon: IoIosCodeWorking,
-    desc: "Junior Software Engineer",
+    desc: "Software Engineer",
   },
   {
     id: 2,
